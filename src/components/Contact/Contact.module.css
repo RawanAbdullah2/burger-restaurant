@@ -1,0 +1,51 @@
+.form{
+color:chocolate;
+width: 80%;
+margin: 40px auto;
+padding: 20px;
+font-weight: bolder;
+}
+.cont{
+    margin:0px auto;
+width: 55%;
+}
+
+.error{
+  color: red;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  width: fit-content;
+  margin-top: -50px;
+}
+.correct{
+  color: green;
+  margin: 0px auto;
+  padding-bottom: 20px;
+  width: fit-content;
+  margin-top: -50px;
+}
+
+.form input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
+
+  .form button {
+    background-color: chocolate;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .form button:hover {
+    background-color: white;
+    color:chocolate;
+    border:1px solid chocolate;
+  }

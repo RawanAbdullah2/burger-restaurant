@@ -1,0 +1,84 @@
+.cart-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+  }
+  .tem{    max-height: 400px;
+    overflow: scroll;}
+  
+  .cartItems{
+    box-sizing: border-box;
+padding: 15px;
+    align-items:center;
+    border-bottom:2px solid chocolate;
+    left: 0;
+    right: 0;
+    display:flex;
+flex-direction: row;
+gap: 40px; 
+ }
+
+ .cartItems h3 {
+   font-family: cursive;
+   font-size: medium;
+   width: 200px;
+ }
+.price{
+  padding: 6px;
+  background-color:rgb(240, 183, 142);
+  border-radius:5px;
+  color:black;  
+
+}
+
+ .act {
+  display: flex;
+  flex-direction: row;
+}
+.act button{
+  padding: 0.3rem 1.5rem;
+  border: 1px solid #8a2b06;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    font-family: cursive;
+  }
+  
+  .actions {
+    text-align: right;
+  }
+  
+  .actions button {
+    font: inherit;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #8a2b06;
+    padding: 0.5rem 2rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+  }
+  
+  .actions button:hover,
+  .actions button:active {
+    background-color: #5a1a01;
+    border-color: #5a1a01;
+    color: white;
+  }
+  
+  .actions .button--alt {
+    color: #8a2b06;
+  }
+  
+  .actions .button {
+    background-color: #8a2b06;
+    color: white;
+  }

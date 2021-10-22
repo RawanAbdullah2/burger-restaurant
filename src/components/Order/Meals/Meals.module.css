@@ -1,0 +1,80 @@
+.cardMeal{
+width: 93%;
+margin: 0 auto;
+padding: 10px;
+margin-bottom: 50px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 10px auto;
+  
+}
+.form{
+display: flex;
+width: 180px;
+margin: 0 auto;
+align-items: center;
+}
+.form button{
+    padding: 5px;
+    height: 25px;
+    width: 30px;
+    background-color:rgb(250, 185, 139);
+    color:black;
+    border-radius:5px;
+    border: 1px solid chocolate;
+}
+.form button:hover{
+    background-color:rgb(255, 255, 255);
+    color:black;
+    border: 1px solid chocolate;
+
+}
+
+@media only screen and (max-width: 1400px) {
+     section{
+       display: grid;
+       grid-template-columns: repeat(3, 2fr);
+       row-gap: 20px;
+   
+   }   
+   }
+   
+   @media only screen and (max-width: 1100px) {
+        section{
+          display: grid;
+          grid-template-columns: repeat(2, 2fr);
+          row-gap: 20px;
+      
+      }   
+      }
+   
+      @media only screen and (max-width: 700px) {
+        section{
+          display: grid;
+          grid-template-columns: repeat(1, 2fr);
+          row-gap: 20px;
+      
+      }   
+      }
+section div{
+    background-color:white;
+    border-radius:12px;
+    margin-left: 15px;
+    padding:5px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: cursive;
+
+}
+section p{
+color:chocolate;
+margin-top: 10px;
+}
+h2{
+    color:chocolate;
+    font-family: cursive;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
